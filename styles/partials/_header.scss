@@ -1,0 +1,13 @@
+header {
+  @include border($ankademinGreen);
+  &:hover {
+    background: darkblue;
+    * {
+      background: darkblue;
+    }
+  }
+  p {
+    font-size: $paragraphSize;
+    color: $ankademinGreen;
+  }
+}

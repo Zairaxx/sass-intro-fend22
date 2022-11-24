@@ -1,0 +1,10 @@
+nav {
+  ul {
+    color: white;
+    @include flex($justify: space-around);
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

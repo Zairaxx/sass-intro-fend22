@@ -1,0 +1,19 @@
+main {
+  @include border();
+  // &.startpage-main {
+  // }
+
+  &:hover {
+    background: hsl(0, 100%, 10%);
+    * {
+      background: hsl(0, 100%, 10%);
+    }
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: $paragraphSize;
+    color: $ankademinCoral;
+  }
+}
