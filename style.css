@@ -1,0 +1,38 @@
+* {
+  background: black;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+nav ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+header {
+  border: 2px solid #90ee90;
+  padding: 6px;
+}
+header p {
+  font-size: 24x;
+  color: #90ee90;
+}
+
+main {
+  border: 2px solid white;
+  padding: 6px;
+}
+main h2 {
+  font-size: 28px;
+}
+main p {
+  font-size: 24x;
+  color: lightcoral;
+}/*# sourceMappingURL=style.css.map */
